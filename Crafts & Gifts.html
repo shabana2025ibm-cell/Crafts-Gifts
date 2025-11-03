@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafts & Gifts</title>
+    <link rel="stylesheet" href="Css/Crafts & Gifts.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Crafts & Gifts</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Crafts & Gifts</h1>
+        <p>Unique handmade items for every occasion!</p>
+        <button onclick="scrollToGallery()">Shop Now</button>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Handmade Vase">
+                <h3>Handmade Vase</h3>
+                <p>$25.00</p>
+                <button onclick="addToWishlist('Handmade Vase')">Add to Wishlist</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Knitted Scarf">
+                <h3>Knitted Scarf</h3>
+                <p>$15.00</p>
+                <button onclick="addToWishlist('Knitted Scarf')">Add to Wishlist</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Wooden Jewelry Box">
+                <h3>Wooden Jewelry Box</h3>
+                <p>$40.00</p>
+                <button onclick="addToWishlist('Wooden Jewelry Box')">Add to Wishlist</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Crafts & Gifts. All Rights Reserved.
+    </footer>
+
+    <script src="Javascript/Crafts & Gifts.js"></script>
+</body>
+</html>
